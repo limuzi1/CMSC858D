@@ -11,22 +11,22 @@ sys.path.append('path/to/your/module/')
 ```
 
 ## Functions
-1. build
+1. build  
 The program can read the string from a input file, 
 build a binary balanced tree based on the string, 
 and write the wavelet tree into an output file.
 The program will also print out the number of characters and 
 the number of distinct characters in the string.
-2. access
+2. access  
 The program can load the wavelet tree from the output file 
 and access the character at ith position (0-based).
 Access queries need to be stored in a file as a newline-separated list of indices.
-3. rank
+3. rank  
 The program can load the wavelet tree from the output file,
 and find the number of a character in the string up to position i (1-based inclusive).
 Rank queries need to be written in a file as a newline-separated list of <c>\t<i>.
 c is the character, and i is the position.
-4. select
+4. select  
 The program can load the wavelet tree from the output file,
 and find the position (1-based) of a character when it occurs i times.
 Select queries need to be stored in a file as a newline-separated list of <c>\t<i>.
