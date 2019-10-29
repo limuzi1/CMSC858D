@@ -12,11 +12,11 @@ sys.path.append('path/to/your/module/')
 
 ## Attributes and methods
 ### Attributes :
-1.rk: an instance of rank_support class
+1. **rk**: an instance of rank_support class
 ### Methods:
-1.select1: returns the position (1-based) of ith 1s in the bit-vector
-2.select0: returns the position (1-based) of ith 0s in the bit-vector
-3.overhead: returns the size of the select data structure (in bits)
+1. **select1**: returns the position (1-based) of ith 1s in the bit-vector
+2. **select0**: returns the position (1-based) of ith 0s in the bit-vector
+3. **overhead**: returns the size of the select data structure (in bits)
 
 ## Example 
 ```
