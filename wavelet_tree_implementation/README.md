@@ -34,7 +34,7 @@ c is the character, and i is the position.
 4. **select**  
 The program can load the wavelet tree from the output file,
 and find the position (1-based) of a character when it occurs i times.
-Select queries need to be stored in a file as a newline-separated list of <c>\t<c>.
+Select queries need to be stored in a file as a newline-separated list of \t.
 c is the character, and i is the occurence of the character. 
 
 
